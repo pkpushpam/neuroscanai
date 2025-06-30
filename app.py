@@ -8,8 +8,7 @@ import os
 app = Flask(__name__)
 
 # Load the trained model
-model = load_model('C:\\Users\\Punit Kumar Pushpam\\brain tumor detector\\Brain-Tumor-Detection-Using-Deep-Learning-MRI-Images-Detection-Using-Computer-Vision\\models\\best_model.h5')
-
+model = load_model('https://drive.google.com/file/d/1ssMk-nM8HHt8nkc-eQ_81LRy4KkxmaRP/view?usp=drive_link')
 # Class labels
 class_labels = ['pituitary', 'glioma', 'notumor', 'meningioma']
 
